@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Final.menu">
+    
+        <StackLayout Background="#FEE6B9">
+            <Label   Text="CONVERSOR DE UNIDADES "
+                     HorizontalTextAlignment="Center"
+                     FontSize="40"
+                     FontAttributes="Bold"
+                     Margin="0,20,0,0"
+                     HorizontalOptions="Center" />
+            <Frame VerticalOptions="FillAndExpand"
+                   Margin="40"
+                   CornerRadius="20"
+                   HasShadow="False">
+                <StackLayout VerticalOptions="Center"
+                             Spacing="10">
+                   
+                    <Label Text="LONGUITUD"
+                 
+                       FontAttributes="Bold"
+                           FontSize="20"
+                           HorizontalOptions="Center" />
+
+                    <Button Text="Iniciar"
+                            TextTransform="None"
+                            BackgroundColor="#FDE080"
+                            CornerRadius="20"
+                            FontSize="Medium"
+                            FontAttributes="Bold"
+                        x:Name="btnlonguitud"
+                            Clicked="btnlonguitud_Clicked" />
+
+                    <Label Text="SUPERFICIE"
+                           FontAttributes="Bold"
+                           FontSize="20"
+                           HorizontalOptions="Center" />
+
+                    <Button Text="Iniciar"
+                            TextTransform="None"
+                            BackgroundColor="#FDE080"
+                            CornerRadius="20"
+                            FontSize="Medium"
+                            FontAttributes="Bold"
+                        x:Name="btnsuperficie"
+                           Clicked="btnsuperficie_Clicked" />
+
+                    <Label Text="VOLUMEN"
+                           FontAttributes="Bold"
+                           FontSize="20"
+                           HorizontalOptions="Center" />
+
+                    <Button Text="Iniciar"
+                            TextTransform="None"
+                            BackgroundColor="#FDE080"
+                            CornerRadius="20"
+                            FontSize="Medium"
+                            FontAttributes="Bold"
+                        x:Name="btnvolumen"
+                            Clicked="btnvolumen_Clicked" />
+
+                    <Label Text="MASA"
+                           FontAttributes="Bold"
+                           FontSize="20"
+                           HorizontalOptions="Center" />
+
+                    <Button Text="Iniciar"
+                            TextTransform="None"
+                            BackgroundColor="#FDE080"
+                            CornerRadius="20"
+                            FontSize="Medium"
+                            FontAttributes="Bold"
+                        x:Name="btnmasa"
+                            Clicked="btnmasa_Clicked" />
+                    
+                    
+                    
+                    <Label Text="CAPACIDAD"
+                           FontAttributes="Bold"
+                           FontSize="20"
+                           HorizontalOptions="Center" />
+
+                    <Button Text="Iniciar"
+                            TextTransform="None"
+                            BackgroundColor="#FDE080"
+                            CornerRadius="20"
+                            FontSize="Medium"
+                            FontAttributes="Bold"
+                        x:Name="btncapacidad"
+                            Clicked="btncapacidad_Clicked" />
+
+                
+
+                
+
+            </StackLayout>
+            </Frame>
+        </StackLayout>
+
+      
+</ContentPage>

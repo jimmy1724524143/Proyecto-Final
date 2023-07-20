@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Final.UNIDADES.masa">
+    <Grid Background="#FDE07F">
+        <StackLayout VerticalOptions="Center"
+                     Margin="20"
+                     Spacing="30">
+
+            <Image Source="https://i.ibb.co/JtTKVcC/masa.png"
+                   Margin="20" />
+            <Frame HasShadow="False"
+                   CornerRadius="15">
+
+                <Entry Keyboard="Numeric"
+                       Placeholder="gramos (g)"
+                       TextColor="Black"
+                       PlaceholderColor="Black"
+                       FontSize="Large"
+                       x:Name="txtg" />
+            </Frame>
+
+            <Button Text="CALCULAR"
+                    CornerRadius="10"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Margin="0,20,0,0"
+                    TextTransform="None"
+                    BackgroundColor="#7C50E9"
+                    TextColor="White"
+                    x:Name="btncalcular"
+                    Clicked="btncalcular_Clicked" />
+
+            
+            <Button Text="Volver"
+                    TextTransform="None"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    CornerRadius="10"
+                    x:Name="btnvolver"
+                    Clicked="btnvolver_Clicked" />
+        </StackLayout>
+    </Grid>
+</ContentPage>
