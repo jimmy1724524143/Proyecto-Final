@@ -1,4 +1,7 @@
-# Proyecto Final
+# PROYECTO FINAL  
+Esta aplicacion  multiplataforma creada con el fin de convertir magnitudes en sus equivalentes compilada en lenguaje c# mediante Xamarin en IDE Visual Studio 2022.
+
+
 
 ![image](https://github.com/jimmy1724524143/Proyecto-Final/assets/133244319/b895baf9-6ac5-484e-bddf-76b01162c874)
 
